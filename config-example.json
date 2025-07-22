@@ -1,0 +1,15 @@
+{
+  "_comment": "UPS Shutdown Monitor Configuration",
+  "_description": {
+    "ShutDownRunTime": "Minimum UPS runtime in minutes before shutdown is triggered",
+    "LogUpdateIntervalMinutes": "How often to log status when UPS is on AC power (in minutes)",
+    "LogOnBatteryIntervalSeconds": "How often to log status when UPS is on battery power (in seconds)",
+    "SleepIntervalSeconds": "Sleep interval between UPS status checks (in seconds)",
+    "ComputerNames": "Array of computer names to shutdown (optional - if not provided, local machine will be shutdown)"
+  },
+  "ShutDownRunTime": 5,
+  "LogUpdateIntervalMinutes": 10,
+  "LogOnBatteryIntervalSeconds": 30,
+  "SleepIntervalSeconds": 15,
+  "ComputerNames": ["SERVER01", "SERVER02"]
+}
